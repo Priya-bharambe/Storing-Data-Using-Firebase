@@ -1,0 +1,10 @@
+.h2 {
+    color: blue;
+    text-align: center;
+}
+
+label {
+    display: inline-block;
+    width: 90px;
+    margin: 10px;
+}

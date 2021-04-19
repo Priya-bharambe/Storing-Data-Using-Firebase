@@ -1,0 +1,44 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6" style="background-color: whitesmoke;"><br>
+            <h2 class="h2">Enter The Following Information</h2><br>
+            <div style=" width: 300px; ">
+                <form (ngSubmit)="onSubmit() ">
+                    <div class="form-group ">
+                        <label for="item ">First Name</label>
+                        <input type="text " class="formcontrol " placeholder="Enter first name... " id="fname " required [(ngModel)]="fnameValue " name="fname ">
+                    </div>
+                    <div class="form-group ">
+                        <label for="item ">Last Name</label>
+                        <input type="text " class="formcontrol " placeholder="Enter last name... " id="lname " required [(ngModel)]="lnameValue " name="lname ">
+                    </div>
+                    <div class="form-group ">
+                        <label for="item ">Email</label>
+                        <input type="text " class="formcontrol " placeholder="Enter email... " id="email " required [(ngModel)]="emailValue " name="email ">
+                    </div>
+                    <div class="form-group ">
+                        <label for="item ">Address</label>
+                        <input type="text " class="formcontrol " placeholder="Enter address... " id="address " required [(ngModel)]="addressValue " name="address ">
+                    </div>
+                    <div class="form-group ">
+                        <label for="item ">City</label>
+                        <input type="text " class="formcontrol " placeholder="Enter city... " id="city " required [(ngModel)]="cityValue " name="city ">
+                    </div>
+                    <div class="form-group ">
+                        <label for="item ">State</label>
+                        <input type="text " class="formcontrol " placeholder="Enter State... " id="state " required [(ngModel)]="stateValue " name="state ">
+                    </div>
+                    <div class="form-group ">
+                        <label for="item ">Country</label>
+                        <input type="text " class="formcontrol " placeholder="Enter country... " id="country " required [(ngModel)]="countryValue " name="country ">
+                    </div>
+                    <div class="btn-group ">
+                        <button type="submit " class="btn btn-success ">Submit</button>
+                    </div>
+                </form><br>
+            </div>
+        </div>
+        <div class="col-md-3 "></div>
+    </div>
+</div><br><br>

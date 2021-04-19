@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "demo1-9cdea": {
+      "hosting": {
+        "FirebaseTask": [
+          "demo1-9cdea"
+        ]
+      }
+    }
+  }
+}
